@@ -6,11 +6,11 @@ fun main (args:Array<String>){
 
     //This is a expression
     //They can return any type of value, but they have to return something
-    if(a.length>10) 10 else 25
+    if(a?.length!!>10) 10 else 25
 
     //This is a statement as well
     //So, expressions are part of statements
-     var b:Int?= if(a.length>10) 10 else 25
+     var b:Int?= if(a?.length!!>10) 10 else 25
 
     //This is a condition
     4>1
